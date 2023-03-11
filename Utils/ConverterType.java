@@ -2,10 +2,10 @@ package Utils;
 
 public enum ConverterType {
     MONEDA("Convertir Monedas"),
-    TEMPERATURA("Convertir Valores");
+    TEMPERATURA("Convertir Temperatura");
 
-    private String text;
-    private ConverterType(String text) {
+    private final String text;
+    ConverterType(String text) {
         this.text = text;
     }
 

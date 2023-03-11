@@ -1,6 +1,4 @@
-package Converters.Temperature;
-
-import Converters.Converter;
+package converters.temperature;
 
 public class CelciusToFarenheitConverter extends TemperatureConverter {
 

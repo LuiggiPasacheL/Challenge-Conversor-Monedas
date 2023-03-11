@@ -1,6 +1,5 @@
-package Converters.Currency;
+package converters.currency;
 
-import Converters.Converter;
 
 public class WonSulCoreanoConverter extends CurrencyConverter {
     public WonSulCoreanoConverter(boolean to) {

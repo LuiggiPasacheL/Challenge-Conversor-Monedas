@@ -1,4 +1,4 @@
-package Converters.Currency;
+package converters.currency;
 
 public class EuroConverter extends CurrencyConverter {
     public EuroConverter(boolean to){

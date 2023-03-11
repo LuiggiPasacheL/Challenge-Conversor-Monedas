@@ -1,8 +1,8 @@
-package Converters.Temperature;
+package converters.temperature;
 
-import Converters.Converter;
+import converters.Converter;
 
-public class TemperatureConverter implements Converter {
+public abstract class TemperatureConverter implements Converter {
     protected String fromTemperature;
     protected String toTemperature;
 

@@ -1,4 +1,4 @@
-package Converters.Currency;
+package converters.currency;
 
 public class DolarConverter extends CurrencyConverter {
     public DolarConverter(boolean to) {

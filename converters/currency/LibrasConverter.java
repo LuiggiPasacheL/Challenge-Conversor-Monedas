@@ -1,6 +1,4 @@
-package Converters.Currency;
-
-import Converters.Converter;
+package converters.currency;
 
 public class LibrasConverter extends CurrencyConverter {
 

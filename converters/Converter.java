@@ -1,4 +1,4 @@
-package Converters;
+package converters;
 
 public interface Converter  {
 

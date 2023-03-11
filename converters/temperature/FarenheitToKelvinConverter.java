@@ -1,6 +1,4 @@
-package Converters.Temperature;
-
-import Converters.Converter;
+package converters.temperature;
 
 public class FarenheitToKelvinConverter extends TemperatureConverter {
     public FarenheitToKelvinConverter() {
@@ -10,7 +8,7 @@ public class FarenheitToKelvinConverter extends TemperatureConverter {
 
     @Override
     public float convert(float value) {
-        return 5/9 * (value - 32F) + 273.15F;
+        return 5F/9F * (value - 32F) + 273.15F;
     }
 
     @Override
